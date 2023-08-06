@@ -3,8 +3,11 @@
 bridges Java, bedrock, and even eaglercraft 1.8 (when it works)
 
 Java port = 25565
-Bedrock port = 
+
+Bedrock port = 19132
+
 eaglercraft port = 8081
+
 
 uses paper java server, and a few plugins to translate the java server to different versions.
 
