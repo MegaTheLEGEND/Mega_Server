@@ -16,7 +16,7 @@ uses paper java server, and a few plugins to translate the java server to differ
 1) extract to anywhere.
 2) install java 17 or newer
 3) run ```runall.bat``` for windows.
-4) no it won’t run on replit. don’t ask
+4) no it won’t run on replit as it is desinged to run on your own hardware. don’t ask
 
 # bugs
 
