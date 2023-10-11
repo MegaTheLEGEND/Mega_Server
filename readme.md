@@ -20,7 +20,7 @@ uses paper java server, and a few plugins to translate the java server to differ
 
 # bugs
 
-I have had problems with ports and using anything other than localhost for eaglercraft. Geyser translates to mc bedrock which seems to work flawlessly.
+I have had problems with ports and using anything other than localhost for eaglercraft. This was fixed by setting the server adress to ```0.0.0.0```. Geyser translates to mc bedrock which seems to work flawlessly.
 
 since Eaglercraft is so old compared to the current bedrock and java it is missing some things.
 I found an ocelot in the sand with the name tag "turtle". also, there is the minor issue where if you 
