@@ -3,6 +3,6 @@
     "uuid": "00000000-0000-0000-0009-01f9588b9792",
     "name": ".Megaderp100",
     "level": 4,
-    "bypassesPlayerLimit": false
+    "bypassesPlayerLimit": true
   }
 ]
