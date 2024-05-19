@@ -1,8 +1,8 @@
 server_connect_timeout: 5000
 enforce_secure_profile: false
-remote_ping_cache: -1
 forge_support: true
 player_limit: -1
+log_pings: true
 permissions:
   default:
   - bungeecord.command.server
@@ -15,7 +15,9 @@ permissions:
   - bungeecord.command.kick
 timeout: 30000
 log_commands: false
+network_compression_threshold: 256
 online_mode: false
+disabled_commands: []
 servers:
   server:
     motd: Cross Platform MC Server!
@@ -36,14 +38,12 @@ listeners:
   max_players: -1
   tab_size: 60
   force_default_server: true
-prevent_proxy_connections: false
-remote_ping_timeout: 5000
 ip_forward: false
-network_compression_threshold: 256
+remote_ping_timeout: 5000
 reject_transfers: false
-disabled_commands: []
+remote_ping_cache: -1
 connection_throttle: 0
 stats: lol
 connection_throttle_limit: 3
 groups: {}
-log_pings: true
+prevent_proxy_connections: false
