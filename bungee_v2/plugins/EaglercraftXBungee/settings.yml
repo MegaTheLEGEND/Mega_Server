@@ -1,4 +1,4 @@
-server_name: 'Replit EaglercraftXBungee Server'
+server_name: 'EaglercraftXBungee Server'
 server_uuid: 0fb30fab-7fd5-458d-a5ef-da770f8acfb3
 websocket_connection_timeout: 15000
 websocket_handshake_timeout: 5000

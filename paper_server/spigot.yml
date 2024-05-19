@@ -59,6 +59,7 @@ players:
   disable-saving: false
 world-settings:
   default:
+    seed-trialchambers: 94251327
     below-zero-generation-in-existing-chunks: true
     zombie-aggressive-towards-villager: true
     hanging-tick-frequency: 100

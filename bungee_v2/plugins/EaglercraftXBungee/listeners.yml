@@ -10,7 +10,7 @@ listener_01:
   redirect_legacy_clients_to: 'ws://localhost:8082'
   server_icon: server-icon.png
   server_motd:
-  - 'Cross Platform Server'
+  - "Mega's - Cross Platform Server"
   allow_motd: true
   allow_query: true
   request_motd_cache:
@@ -26,6 +26,7 @@ listener_01:
     page_index_name:
     - 'index.html'
     - 'index.htm'
+  allow_voice: false
   ratelimit:
     ip:
       enable: false

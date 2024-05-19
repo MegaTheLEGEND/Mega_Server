@@ -1,4 +1,26 @@
+server_connect_timeout: 5000
 enforce_secure_profile: false
+remote_ping_cache: -1
+forge_support: true
+player_limit: -1
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.kick
+timeout: 30000
+log_commands: false
+online_mode: false
+servers:
+  server:
+    motd: Cross Platform MC Server!
+    address: localhost:25565
+    restricted: false
 listeners:
 - query_port: 25569
   motd: Cross Platform MC Server!
@@ -14,35 +36,14 @@ listeners:
   max_players: -1
   tab_size: 60
   force_default_server: true
-remote_ping_cache: -1
-network_compression_threshold: 256
-permissions:
-  default:
-  - bungeecord.command.server
-  - bungeecord.command.list
-  admin:
-  - bungeecord.command.alert
-  - bungeecord.command.end
-  - bungeecord.command.ip
-  - bungeecord.command.reload
-  - bungeecord.command.kick
-log_pings: true
-connection_throttle_limit: 3
-server_connect_timeout: 5000
-timeout: 30000
-stats: lol
-player_limit: -1
-ip_forward: false
-groups: {}
-remote_ping_timeout: 5000
-connection_throttle: 0
-log_commands: false
 prevent_proxy_connections: false
-online_mode: false
-forge_support: true
+remote_ping_timeout: 5000
+ip_forward: false
+network_compression_threshold: 256
+reject_transfers: false
 disabled_commands: []
-servers:
-  server:
-    motd: Cross Platform MC Server!
-    address: localhost:25565
-    restricted: false
+connection_throttle: 0
+stats: lol
+connection_throttle_limit: 3
+groups: {}
+log_pings: true
